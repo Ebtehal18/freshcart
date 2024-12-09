@@ -75,9 +75,7 @@ export default function Navbar() {
             </svg>
           </button>
           <div
-           className={`${
-            menuOpen ? "block" : "hidden"
-          } w-full lg:flex lg:w-auto lg:justify-between flex-grow items-center`}
+            className="hidden w-full lg:flex lg:w-auto lg:justify-between flex-grow items-center"
             id="navbar-dropdown"
           >
             {userLogin !== null ? (
